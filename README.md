@@ -1,9 +1,9 @@
 # MAD_Project
 <h3>This is a readme for this repository. </h3>
-This repository is for Mobile Application Development Project.
-Developed by: Mubin Uddin Ahmed Nezami
-Environment: Android Studio
-Language: Java
+This repository is for Mobile Application Development Project.<br>
+Developed by: Mubin Uddin Ahmed Nezami. <br>  
+Environment: Android Studio.<br>
+Language: Java.<br>
 
 Project Name: ***Book Companion***. </br>
 
