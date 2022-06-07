@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MyBooksFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Add New Book"
+        android:textSize="20dp"
+        android:textColor="@color/blue"/>
+
+    <EditText
+        android:id="@+id/bookNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Book Name"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/authorId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Author Name"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/bookNameId"/>
+
+    <EditText
+        android:id="@+id/languageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Language"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:layout_below="@+id/authorId"/>
+
+    <EditText
+        android:id="@+id/locationId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Sharing Location"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:layout_below="@+id/languageId"/>
+
+    <EditText
+        android:id="@+id/mobileId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile No"
+        android:layout_marginTop="50dp"
+        android:inputType="text"
+        android:layout_below="@+id/locationId"/>
+
+    <Button
+        android:id="@+id/btnAddBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/purple_200"
+        android:layout_below="@+id/mobileId"/>
+
+</RelativeLayout>

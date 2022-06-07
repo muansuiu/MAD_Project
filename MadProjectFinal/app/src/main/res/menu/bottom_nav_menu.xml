@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:id="@+id/home"
+        android:title="@string/all_books"
+        android:icon="@drawable/ic_baseline_menu_book_24" />
+
+    <item android:id="@+id/myList"
+        android:title="@string/my_list"
+        android:icon="@drawable/ic_baseline_view_list_24" />
+
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_baseline_arrow_outward_24" />
+
+
+</menu>
